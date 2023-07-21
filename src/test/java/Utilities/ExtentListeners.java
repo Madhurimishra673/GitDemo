@@ -26,7 +26,7 @@ import com.base.DriverManager;
 
 public class ExtentListeners extends ExtentSetup implements ITestListener,IRetryAnalyzer,IAnnotationTransformer{
 
-	public static Logger Log = Logger.getLogger("devpinoyLogger");
+	public  Logger Log = Logger.getLogger("devpinoyLogger");
 	int noofRetries=0;
 	int maxRetries=1;
 	
@@ -163,7 +163,7 @@ public class ExtentListeners extends ExtentSetup implements ITestListener,IRetry
 		return false;
 	}
 	
-	public static byte[] takeScreenShot(String methodName) {
+	public  byte[] takeScreenShot(String methodName) {
 
 		Log.info("SCREENSHOT of the following test is taken: " + methodName);
 		Log.info("----- ***** -----\n");

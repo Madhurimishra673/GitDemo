@@ -1,6 +1,6 @@
 package com.testCases;
 
-import static org.testng.Assert.assertTrue;
+import static  org.testng.Assert.assertTrue;
 
 import java.awt.AWTException;
 import java.sql.SQLException;

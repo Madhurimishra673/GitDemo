@@ -26,11 +26,11 @@ import com.base.DriverManager;
 
 
 public class TestBase {
-	public static WebDriver driver;
-	public static Properties Config;
-	public static ExtentReports extent;
-	public static ExtentTest test;
-	public static WebDriverWait wait;
+	public  WebDriver driver;
+	public  Properties Config;
+	public static  ExtentReports extent;
+	public  ExtentTest test;
+	public  WebDriverWait wait;
 	public SoftAssert softAssert = new SoftAssert();
 	
 	@BeforeClass(alwaysRun = true)  

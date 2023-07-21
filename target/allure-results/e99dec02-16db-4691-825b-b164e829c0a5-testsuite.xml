@@ -8,7 +8,7 @@
             <failure>
                 <message>NullPointerException: null</message>
                 <stack-trace>java.lang.NullPointerException
-	at Utilities.CommonFunctions.sendKeys(CommonFunctions.java:327)
+	at Utilities.CFS.sendKeys(CFS.java:327)
 	at com.pages.EbayHomePage.enterSearchItem(EbayHomePage.java:71)
 	at com.testCases.validateAccessingProductViaSearch.validateAccessingProductViaSearchBar(validateAccessingProductViaSearch.java:43)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

@@ -9,7 +9,7 @@
                 <message>NullPointerException: null</message>
                 <stack-trace>java.lang.NullPointerException
 	at Utilities.Logger.info(Logger.java:16)
-	at Utilities.CommonFunctions.clickElement(CommonFunctions.java:293)
+	at Utilities.CFS.clickElement(CFS.java:293)
 	at com.pages.EbayHomePage.clickSearchBtn(EbayHomePage.java:77)
 	at com.testCases.validateAccessingProductViaSearch.validateAccessingProductViaSearchBar(validateAccessingProductViaSearch.java:44)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)

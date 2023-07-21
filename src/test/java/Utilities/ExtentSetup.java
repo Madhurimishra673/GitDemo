@@ -9,7 +9,7 @@ import com.base.TestBase;
 
 public class ExtentSetup extends TestBase{
 	
-	public static ExtentReports setUpExtentReport() {
+	public static  ExtentReports setUpExtentReport() {
 		
 		
 		String reportpath=System.getProperty("user.dir")+"/target/Reports/index.html";

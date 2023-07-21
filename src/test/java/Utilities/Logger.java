@@ -10,7 +10,7 @@ import com.base.TestBase;
 
 public class Logger extends TestBase {
 	
-	public static void info(String msg) {
+	public  void info(String msg) {
  
 		System.out.println(msg);	
 		test.log(Status.INFO, msg);
@@ -22,7 +22,7 @@ public class Logger extends TestBase {
 		if(!msg.isEmpty()) { Reporter.log(logs); }
 	}
 	
-	public static void info(Double msg) {
+	public  void info(Double msg) {
  
 		System.out.println(msg);	
 		test.log(Status.INFO,String.valueOf(msg));
@@ -34,7 +34,7 @@ public class Logger extends TestBase {
 		if(msg != null) { Reporter.log(logs); }
 	}
        
-	public static void error(String msg) {
+	public  void error(String msg) {
 		
 		System.err.println(msg);
 		test.log(Status.ERROR, msg);
@@ -45,7 +45,7 @@ public class Logger extends TestBase {
 		if(!msg.isEmpty()) { Reporter.log(logs); }
 	}
 
-	public static void info(int msg)  {
+	public  void info(int msg)  {
  
 		System.out.println(msg);	
 		test.log(Status.INFO,String.valueOf(msg));
@@ -56,7 +56,7 @@ public class Logger extends TestBase {
 	}
 	
 	
-	public static void warn(String msg) throws Exception {
+	public  void warn(String msg) throws Exception {
 		
 		System.out.println(msg);
 		test.log(Status.WARNING, msg);
@@ -67,7 +67,7 @@ public class Logger extends TestBase {
 		if(!msg.isEmpty()) { Reporter.log(logs); }
 	}
 	
-	public static void pass(String msg) throws Exception {
+	public  void pass(String msg) throws Exception {
 		
 		System.out.println(msg);
 		test.log(Status.PASS, msg);
@@ -78,7 +78,7 @@ public class Logger extends TestBase {
 		if(!msg.isEmpty()) { Reporter.log(logs); }
 	}
 	
-	public static void fail(String msg) throws Exception {
+	public  void fail(String msg) throws Exception {
 		
 		System.err.println(msg);
 		test.log(Status.FAIL, msg);
